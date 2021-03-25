@@ -1,9 +1,9 @@
 name: CDC TS data
 
-on: workflow_dispatch
-  #schedule:
+on: 
+  schedule:
   #   Run every hour, on the half-hour.
-  #   - cron:  '0 20 * * *'
+    - cron:  '0 20 * * *'
 
 
 jobs:
