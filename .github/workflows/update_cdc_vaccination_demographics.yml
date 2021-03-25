@@ -1,10 +1,10 @@
-name: Update HHS and CDC files
+name: CDC TS data
 
 on: workflow_dispatch
   #schedule:
   #   Run every hour, on the half-hour.
   #   - cron:  '0 20 * * *'
-  
+
 
 jobs:
   update:
